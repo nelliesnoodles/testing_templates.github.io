@@ -1,0 +1,76 @@
+﻿/* css for the blue_template */
+body {
+    background: #E9F1F5;
+}
+ul {
+    text-align: center;
+    list-style: circle;
+}
+
+li {
+    text-align: center;
+    font-weight: bold;
+}
+h1 {
+    text-align: center;
+    color: darkgreen;
+
+}
+h2 {
+    text-align: center;
+    font-weight: bolder;
+}
+h3 {
+    text-align: center;
+    color: darkblue;
+}
+h4 {
+    text-align: center;
+    color: darkblue;
+}
+h5 {
+    text-align: center;
+    color: blue;
+    font-size: 1em;
+    font-weight: lighter;
+}
+.nav-bar {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 7vh;
+    border-bottom: 7px dotted blue;
+    color: saddlebrown;
+}
+ .line {
+     width: 80vw;
+     margin-left: 10vw;
+     margin-right: 10vw;
+     border-bottom: 8px solid blue;
+ }
+
+.nav-bar a{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darkslateblue;
+    padding: 2px;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+.image1{
+    display: inline-block;
+    background-repeat: no-repeat;
+    align-content: center;
+    justify-content: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    width: 80vw;
+    height: 50vh;
+    background-image: url('blue_dog_small.jpg');    
+}
+
+.paragraph1{
+    margin-top: 2vh;
+    font-family:cursive;
+    font-size: 1em;
+    color: black;
+}

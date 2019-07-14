@@ -1,0 +1,33 @@
+﻿body
+{
+    background-color:azure;
+    padding: 2px;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.center-content {
+    display: inline-block;
+    align-text: center;
+    align-content: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.links {
+    display: block;
+    align-content: center;
+    margin-top: 5vh;
+    padding: 10px;
+}
+main {
+    background-color: darkslategray;
+    width: 100vw;
+    height: 75vh;
+    border: 5px solid black;
+    margin: 2px;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    color:aqua;
+}
+

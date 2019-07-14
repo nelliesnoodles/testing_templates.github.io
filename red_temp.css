@@ -1,0 +1,87 @@
+﻿/* css for the red_template */
+body {
+    background: #8B0000;
+}
+
+main {
+    color: lightcyan;
+}
+ul {
+    text-align: center;
+    list-style: square;
+}
+
+li {
+    text-align: center;
+    font-weight: bold;
+    font-size: .9em;
+}
+
+h1 {
+    text-align: center;
+    color: lightblue;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bolder;
+}
+
+h3 {
+    text-align: center;
+    color: pink;
+}
+
+h4 {
+    text-align: center;
+    color: lightcyan;
+}
+
+h5 {
+    text-align: center;
+    color: lightgoldenrodyellow;
+    font-size: 1em;
+    font-weight: lighter;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 7vh;
+    border-bottom: 7px dotted blue;
+    color: ghostwhite;
+}
+
+.line {
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    border-bottom: 2px groove #DC143C;
+}
+
+.nav-bar a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: thistle;
+    padding: 2px;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+.image1 {
+    display: inline-block;
+    background-repeat: no-repeat;
+    align-content: center;
+    justify-content: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    width: 80vw;
+    height: 70vh;
+    background-image: url('red_dog.jpg');
+}
+
+.paragraph1 {
+    margin-top: 2vh;
+    font-family: cursive;
+    font-size: 1em;
+    color: white;
+}

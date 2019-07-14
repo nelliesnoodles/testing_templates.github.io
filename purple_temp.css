@@ -1,0 +1,87 @@
+﻿/* css for the purple_temp */
+body {
+    background: #C7C2E1;
+}
+ 
+main {
+    color: darkmagenta;
+}
+
+ul {
+    text-align: center;
+    list-style: none;
+}
+
+li {
+    text-align: center;
+    font-weight: bold;
+    font-size: .9em;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bolder;
+}
+
+h3 {
+    text-align: center;
+    color: rebeccapurple;
+}
+
+h4 {
+    text-align: center;
+    color: purple;
+}
+
+h5 {
+    text-align: center;
+    color: lightgoldenrodyellow;
+    font-size: 1em;
+    font-weight: lighter;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 7vh;
+    border-bottom: 7px dotted blue;
+    color: lightgrey;
+}
+
+.line {
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    border-bottom: 2px groove #5905C2;
+}
+
+.nav-bar a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: sandybrown;
+    padding: 2px;
+    font-weight: bolder;
+    font-size: 2em;
+    text-shadow: 1px 1px 2px purple;
+}
+
+.image1 {
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 33vw;
+    margin-left: 33vw;
+    margin-right: 33vw;
+    height: 70vh;
+    background-image: url('purple_dog.jpg');
+}
+
+.paragraph1 {
+    margin-top: 2vh;
+    font-family: cursive;
+    font-size: 1em;
+    color: darkslateblue;
+}

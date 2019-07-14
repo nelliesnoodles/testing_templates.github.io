@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="new_temp.js"></script>
+    <title>New Template</title>
+</head>
+<body>
+    <div class="nav-bar">
+        <a href="template_home.html">Home</a>
+    </div>
+    <main>
+        <h1> h1 tag</h1>
+        <div class="line"></div>
+        <h2> h2 tag</h2>
+        <div class="line"></div>
+        <h3> h3 tag</h3>
+        <div class="line"></div>
+        <ul>
+            <li> list item 1</li>
+            <li> list item 2</li>
+            <li> list item 3</li>
+        </ul>
+        <div class="line"></div>
+        <h5> h5 tag:  below a dog in some scene related to the color theme of this page.</h5>
+        <div class="image1"></div>
+        <div class="line"></div>
+        <p class="paragraph1">
+            Each css will have the same class names for elements that are to be altered in css<br />
+            If one class name in the blue template is named 'paragraph1' and in the other 'paragraphOne'<br />
+            the css loaded will not find whichever of these is not in the selected css file.
+        </p>
+        
+    </main>
+    <h2>  The Javascript code:</h2>
+    <h4> cess-file is stored in the home page,<br />  code is at the bottom as well.</h4>
+    <pre>
+    <code>
+
+        function set_css() {
+        try {
+        let newcss = localStorage.getItem('cess_file');
+        var head = document.getElementsByTagName('head')[0];
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = newcss;
+        link.media = 'all';
+        head.appendChild(link);
+        }
+        catch (err) {
+        console.log("Error retrieving localStorage item: cess_file")
+        console.log(err.message);
+        }
+
+        }
+
+        window.onload = set_css();
+    </code>
+</pre>
+
+
+
+</body>
+</html>

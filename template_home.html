@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- js file that determines which css to load -->
+    <link rel="stylesheet" href="template_test_index.css" />
+    <script type="text/javascript" src="temp_test.js"></script>
+    <title></title>
+</head>
+<body>
+    <!--
+        home css = template_test_index.css
+        blue_temp = blue_temp.css
+        red_temp = red_temp.css
+        purple_temp = purple_temp.css
+    -->
+    <div class="center-content">
+    <h2> click on one of the below buttons<br /> new html page with corresponding css should load</h2>
+    </div>
+    <div class="links">
+        <!-- on click, have the js file tell the new_template what css file to create link and add-->
+        <button id="blue_temp"> Blue Template </button>
+      <button id="red_temp"> Red Template </button>
+        <button id="purple_temp"> Purple Template </button>
+    
+
+    <main>
+        <h3> The javascript code: </h3>
+        <pre> <code>
+    const new_temp = 'new_template.html';
+
+
+    function load_blue_html() {
+    localStorage.setItem('cess_file', 'blue_temp.css')
+    window.location = new_temp;
+    }
+
+    function load_red_html() {
+    localStorage.setItem('cess_file', 'red_temp.css')
+    window.location = new_temp;
+    }
+    function load_purple_html() {
+    localStorage.setItem('cess_file', 'purple_temp.css')
+    window.location = new_temp;
+
+    }
+
+    window.onload = function() {
+    let red_link = document.getElementById("red_temp");
+    red_link.addEventListener('click', load_red_html);
+    let purple_link = document.getElementById("purple_temp");
+    purple_link.addEventListener('click', load_purple_html);
+    let blue_link = document.getElementById("blue_temp");
+    blue_link.addEventListener('click', load_blue_html);
+
+    };
+
+
+
+
+
+</code></pre>
+
+    </main>
+
+</body>
+</html>
